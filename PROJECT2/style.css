@@ -1,0 +1,290 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    margin: 10px;
+
+
+}
+
+/* LOGO */
+#logo {
+    border: 2px solid black;
+    margin: 10px;
+    height: 200px;
+    display: flex;
+
+
+
+
+}
+
+/* navigation */
+#navigation {
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+}
+#navigation ul {
+    text-decoration: none;
+    display: flex;
+    /* border: 2px solid black;
+    
+    margin: 10px; */
+    list-style: none;
+
+}
+
+#navigation ul li {
+    /* text-decoration: none;
+    display: flex;
+    /* border: 2px solid black;
+    
+    margin: 10px; */
+    /* list-style: none; */
+    padding-left: 18px;
+    padding-right: 49px;
+    display: flex;
+
+}
+.login{
+    
+    height: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+#primary {
+    height: 600px;
+    width: 100%;
+}
+
+/* #primary img{
+    height: 600px;
+    width: 100%;
+} */
+.navbar::before {
+    content: "";
+    position: absolute;
+    background: url(Front3.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+#primary {
+    /* border: 2px solid rgb(228, 228, 43); */
+
+    height: 140px;
+    width: 860px;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 300px;
+
+}
+
+#primary h1 {
+    /* border: 2px solid royalblue; */
+    /* justify-content: center;
+    align-items: center; */
+
+    text-align: center;
+
+
+
+}
+
+#primary p {
+    text-align: center;
+}
+.box{
+    /* border: 4px solid black; */
+    display: flex;
+    width: 376px;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    
+    
+     margin-left: 570px;
+    margin-top: 10px; 
+    border-radius: 10px;
+    /* background: rgb(121, 230, 13); */
+
+
+}
+#services-container{
+    display: flex;
+    flex-direction: column; 
+   /* border: 2px solid black; */
+   width: 100%;
+    position: absolute;
+    top: 600px;
+    /* background: url('../Drink.jpg') no-repeat center center/cover; */
+    background: cornflowerblue;
+
+    /* background: rgb(121, 230, 13); */
+    /* background: url(Front2.jpg); */
+
+   
+}
+#services-container h1{
+    text-align: center;
+}
+/* #services-container::before{
+    content: "";
+    background: url('../Front3.jpg') no-repeat center center/cover;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.4;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    
+
+} */
+#box1{
+    background: url('../Drink.jpg') no-repeat center center/cover;
+}
+#box2{
+    background: url('../deliveryimages.jpg') no-repeat center center/cover;
+}
+#box3{
+    background: url('../Live Order Tracking.jpg') no-repeat center center/cover;
+}
+
+   
+    
+
+.clientheading{
+    text-align: center;
+}
+   
+.investors{
+    position: absolute;
+    display: flex;
+    /* border: 4px solid black; */
+    top: 1332px;
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+    padding: 50px;
+    flex-direction: column;
+     background-color: blanchedalmond; 
+    /* background: url('FRONT1.jpg') no-repeat center center/cover;
+    */
+
+
+}
+.applogos{
+    
+    position: absolute;
+    display: flex;
+    /* border: 4px solid black; */
+    top: 1332px;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+    left: 800px;
+    margin: 50px;
+    padding: 50px;
+    background-color: blanchedalmond;
+
+}
+
+/* #contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../toast.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+} */
+#contact{
+    position: absolute;
+    /* border: 4px solid black; */
+    width: 100%;
+    height: 600px;
+    top: 2092px;
+    background: black;
+    color: white;
+
+
+}
+/* #contact::before{
+    content: "";
+    background: black;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+} */
+.contactheading{
+    text-align: center;
+}
+.contact-box{
+    /* border: 4px solid rgb(201, 175, 175); */
+    text-align: center;
+    font-size: 25px;
+
+}
+.contact-box textarea{
+    font-size: 1.5rem;
+}
+/* .contact-box form{
+    width: 40%;
+
+} */
+.form-group{
+    margin: 2px;
+    padding: 2px;
+    font-size: 25px;
+
+}
+.center{
+    margin-top: 20px;
+}
